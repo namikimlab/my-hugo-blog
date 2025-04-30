@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://namixkim.com/
 languageCode: en-us
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
@@ -9,13 +9,13 @@ theme: ["PaperMod"]
 
 languages:
   en:
-    baseURL: https://en.example.org/
+    baseURL: https://en.namixkim.com/
     languageName: English
     contentDir: content/en
     title: In English
     weight: 1
   ko:
-    baseURL: https://ko.example.org/
+    baseURL: https://ko.namixkim.com/
     languageName: 한국어
     contentDir: content/ko
     title: 한국어 사이트
