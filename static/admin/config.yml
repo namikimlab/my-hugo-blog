@@ -1,0 +1,41 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "post-en"
+    label: "Posts (English)"
+    folder: "content/en/posts"
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Thumbnail Image", name: "image", widget: "image", required: false }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "post-ko"
+    label: "포스트 (한국어)"
+    folder: "content/ko/posts"
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - { label: "제목", name: "title", widget: "string" }
+      - { label: "작성일", name: "date", widget: "datetime" }
+      - { label: "썸네일 이미지", name: "image", widget: "image", required: false }
+      - { label: "설명", name: "description", widget: "string", required: false }
+      - { label: "태그", name: "tags", widget: "list", required: false }
+      - { label: "임시저장", name: "draft", widget: "boolean", default: true }
+      - { label: "본문", name: "body", widget: "markdown" }
