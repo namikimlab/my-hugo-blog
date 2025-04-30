@@ -20,3 +20,6 @@ languages:
     contentDir: content/ko
     title: 한국어 사이트
     weight: 2
+
+params:
+  googleAnalytics: ""
