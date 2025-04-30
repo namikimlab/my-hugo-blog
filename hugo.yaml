@@ -1,0 +1,22 @@
+baseURL: https://example.org/
+languageCode: en-us
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+multihost: true
+
+title: My New Hugo Site
+theme: ["PaperMod"]
+
+languages:
+  en:
+    baseURL: https://en.example.org/
+    languageName: English
+    contentDir: content/en
+    title: In English
+    weight: 1
+  ko:
+    baseURL: https://ko.example.org/
+    languageName: 한국어
+    contentDir: content/ko
+    title: 한국어 사이트
+    weight: 2
