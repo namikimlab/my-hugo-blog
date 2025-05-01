@@ -12,13 +12,13 @@ languages:
     baseURL: https://en.namixkim.com/
     languageName: English
     contentDir: content/en
-    title: In English
+    title: Nami Kim's Log
     weight: 1
   ko:
     baseURL: https://ko.namixkim.com/
     languageName: 한국어
     contentDir: content/ko
-    title: 한국어 사이트
+    title: 남희 기록
     weight: 2
 
 params:

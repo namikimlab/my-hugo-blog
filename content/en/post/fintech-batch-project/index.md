@@ -4,8 +4,6 @@ date = 2025-05-01T12:00:00+09:00
 draft = false
 +++
 
-# 🚀 FinTech Batch Data Pipieline 1 - Card Transaction Records
-
 ## ✨ Project Summary  
 
 Assuming I am working for a fintech company, I built a batch pipeline that automatically aggregates → transforms → analyzes credit card data.
