@@ -1,6 +1,8 @@
 +++
 title = "📊 dbt가 잘하는 일 vs Python이 잘하는 일"
 date = 2025-05-12T12:00:00+09:00
+tags = ["data engineering", "python", "dbt"]
+categories: ["Data Engineering"]
 draft = false
 +++
 

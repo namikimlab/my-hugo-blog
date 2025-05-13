@@ -7,19 +7,44 @@ multihost: true
 title: My New Hugo Site
 theme: ["PaperMod"]
 
+taxonomies:
+  tag: tags
+  category: categories
+    
 languages:
   en:
     baseURL: https://en.namixkim.com/
-    languageName: English
+    languageName: 🇺🇸 English
     contentDir: content/en
     title: Nami Kim's Log
     weight: 1
+    menu:
+      main:
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 11
+        
   ko:
     baseURL: https://ko.namixkim.com/
-    languageName: 한국어
+    languageName: 🇰🇷 한국어
     contentDir: content/ko
     title: 남희 기록
     weight: 2
-
+    menu:
+      main:
+        - identifier: categories
+          name: 카테고리
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: 태그
+          url: /tags/
+          weight: 11
+        
 params:
   googleAnalytics: ""

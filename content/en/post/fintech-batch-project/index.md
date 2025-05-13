@@ -1,6 +1,8 @@
 +++
 title = "🚀 Building a Batch Data Pipeline with AWS, Airflow, and Spark"
 date = 2025-05-01T12:00:00+09:00
+tags = ["data engineering", "python", "pipeline", "fintech", "airflow", "spark"]
+categories: ["Data Engineering"]
 draft = false
 +++
 
