@@ -16,7 +16,7 @@ languages:
     baseURL: https://en.namixkim.com/
     languageName: 🇺🇸 English
     contentDir: content/en
-    title: Nami Kim's Log
+    title: Nami's Log
     weight: 1
     menu:
       main:
