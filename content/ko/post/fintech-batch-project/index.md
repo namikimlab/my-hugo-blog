@@ -2,7 +2,7 @@
 title = "🚀 핀테크 배치 데이터 파이프라인 구축기: AWS, Airflow, Spark"
 date = 2025-05-01T12:00:00+09:00
 tags = ["data engineering", "python", "pipeline", "fintech", "airflow", "spark"]
-categories: ["Data Engineering"]
+categories = ["Data Engineering"]
 draft = false
 +++
 
