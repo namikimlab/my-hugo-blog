@@ -7,10 +7,10 @@ draft = false
 +++
 
 <p align="center">
-  <img src="screenshot_1.png" alt="스크린샷 1" width="30%" />
-  <img src="screenshot_2.png" alt="스크린샷 2" width="30%" />
-  <img src="screenshot_3.png" alt="스크린샷 3" width="30%" />
-  <img src="screenshot_4.png" alt="스크린샷 3" width="30%" />
+  <img src="screenshot_1.png" alt="스크린샷 1" width="22%" />
+  <img src="screenshot_2.png" alt="스크린샷 2" width="22%" />
+  <img src="screenshot_3.png" alt="스크린샷 3" width="22%" />
+  <img src="screenshot_4.png" alt="스크린샷 4" width="22%" />
 </p>
 
 ## 🪴 Why I Built This
