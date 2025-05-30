@@ -1,7 +1,7 @@
 +++
 title = "🔧 ARM Mac + Docker + dbt: Troubleshooting Startup Issues"
 date = 2025-05-30T12:00:00+09:00
-tags = tags = ["airflow", "dbt", "docker", "data-engineering", "debugging"]
+tags = ["airflow", "dbt", "docker", "data-engineering", "debugging"]
 categories = ["Data Engineering"]
 draft = false
 +++
