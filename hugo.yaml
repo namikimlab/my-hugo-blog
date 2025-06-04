@@ -4,7 +4,7 @@ defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 multihost: true
 
-title: My New Hugo Site
+title: Nami's Log
 theme: ["PaperMod"]
 
 taxonomies:
@@ -32,6 +32,10 @@ languages:
           name: Tags
           url: /tags/
           weight: 11
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 12
         
   ko:
     baseURL: https://ko.namixkim.com/
@@ -53,6 +57,21 @@ languages:
           name: 태그
           url: /tags/
           weight: 11
+        - identifier: search
+          name: 검색
+          url: /search/
+          weight: 12
         
 params:
-  googleAnalytics: ""
+  googleAnalytics: "G-80HHKQXEQQ"
+  env: production
+  search:
+    enabled: true
+    engine: flexsearch
+    output_path: search/index.json
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
