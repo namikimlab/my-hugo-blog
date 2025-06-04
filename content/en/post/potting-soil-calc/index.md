@@ -6,12 +6,14 @@ categories = ["Web App"]
 draft = false
 +++
 
-<p align="center">
-  <img src="screenshot_1.png" alt="스크린샷 1" width="22%" />
-  <img src="screenshot_2.png" alt="스크린샷 2" width="22%" />
-  <img src="screenshot_3.png" alt="스크린샷 3" width="22%" />
-  <img src="screenshot_4.png" alt="스크린샷 4" width="22%" />
-</p>
+
+## ✨ Try It
+👉 [Launch the Potting Soil Calculator](https://soilcalc.changbitfarm.com/)
+
+## 📬 Source Code
+GitHub: [https://github.com/namikimlab/potting-soil-calculator](https://github.com/namikimlab/potting-soil-calculator)
+
+![Potting Soil Calculator](soil-calc-capture.png)
 
 ## 🪴 Why I Built This
 When planting in pots, figuring out how much soil you need can be surprisingly tricky.  
@@ -62,8 +64,12 @@ I wrote thorough unit tests using Jest and maintain **100% test coverage**.
 - `og:image` and meta tags for social sharing (e.g. KakaoTalk, Facebook)
 - `canonical` tag to prevent duplicate indexing
 
-## ✨ Try It
-👉 [Launch the Potting Soil Calculator](https://soilcalc.changbitfarm.com/)
+## 🎨 Design with AI
+
+- Started with a simple hand-drawn sketch and selected a natural color palette.
+- Used **Google Stitch** to generate design concepts based on UI layout, target users, and key features.
+- Created pot shape icons using **ChatGPT's image generation** from my initial sketches.
+- Combined AI tools to quickly build a cohesive, production-ready UI without a dedicated designer.
 
 ## 👀 Final Thoughts
 I originally started this as a simple calculator,  
@@ -76,5 +82,3 @@ I had to be deliberate at every step — from design to implementation to polish
 This may be a small web app,  
 but I treated it like a product — and through that process, I experienced the full cycle of frontend product development.
 
-## 📬 Source Code
-GitHub: [https://github.com/namikimlab/potting-soil-calculator](https://github.com/namikimlab/potting-soil-calculator)

@@ -6,12 +6,13 @@ categories = ["Web App"]
 draft = false
 +++
 
-<p align="center">
-  <img src="screenshot_1.png" alt="스크린샷 1" width="22%" />
-  <img src="screenshot_2.png" alt="스크린샷 2" width="22%" />
-  <img src="screenshot_3.png" alt="스크린샷 3" width="22%" />
-  <img src="screenshot_4.png" alt="스크린샷 4" width="22%" />
-</p>
+## ✨ 결과물
+[분갈이 흙 계산기 바로가기](https://soilcalc.changbitfarm.com/)
+
+## 📬 소스코드
+GitHub: [https://github.com/namikimlab/potting-soil-calculator](https://github.com/namikimlab/potting-soil-calculator)
+
+![Potting Soil Calculator](soil-calc-capture.png)
 
 ## 🪴 왜 만들었을까?
 화분에 식물을 심을 때, 흙이 얼마나 필요한지 계산하는 게 은근히 번거롭습니다.
@@ -58,9 +59,12 @@ Jest 기반으로 단위 테스트를 작성했고, 현재 100% 커버리지를 
 - og:image 설정 (카카오톡, 페이스북 공유 대응)
 - Canonical 태그로 중복 URL 방지
 
-## ✨ 결과물
-👉 [분갈이 흙 계산기 바로가기](https://soilcalc.changbitfarm.com/)
+## 🎨 AI를 활용한 디자인
 
+- 간단한 손그림 스케치에서 시작해 자연스러운 컬러 팔레트를 선정했습니다.
+- **Google Stitch**를 활용해 UI 레이아웃, 타겟 사용자, 주요 기능을 기반으로 디자인 컨셉을 생성했습니다.
+- 초기 스케치를 바탕으로 **ChatGPT의 이미지 생성 기능**을 사용해 화분 모양 아이콘을 만들었습니다.
+- 여러 AI 도구를 결합해 디자이너 없이도 빠르게 일관된 프로덕션 수준의 UI를 구축했습니다
 
 ## 👀 마무리하며
 처음엔 단순한 흙 계산기 하나 만들어보자는 마음으로 시작했지만,
@@ -73,5 +77,3 @@ Jest 기반으로 단위 테스트를 작성했고, 현재 100% 커버리지를 
 작은 웹앱이지만, 실사용자를 염두에 두고 고민하며 만든 만큼
 포트폴리오 이상의 의미가 있었던 프로젝트였습니다.
 
-## 📬 소스코드
-GitHub: [https://github.com/namikimlab/potting-soil-calculator](https://github.com/namikimlab/potting-soil-calculator)
