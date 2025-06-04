@@ -1,6 +1,6 @@
 +++
 title = "🐳 GitHub Pages용 Jekyll 블로그를 Docker로 세팅하기 — 삽질 끝에 완성한 깔끔한 구성"
-date = 2025-06-3T12:00:00+09:00
+date = 2025-06-03
 tags = ["jekyll", "docker", "github-pages", "devops"]
 categories = ["DevOps"]
 draft = false

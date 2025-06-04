@@ -1,6 +1,6 @@
 +++
 title = "🐳 How I Dockerized My GitHub Pages Jekyll Site — The Clean Setup That Works"
-date = 2025-06-3T12:00:00+09:00
+date = 2025-06-03
 tags = ["jekyll", "docker", "github-pages", "devops"]
 categories = ["DevOps"]
 draft = false
@@ -102,6 +102,11 @@ gem "webrick", "~> 1.8"
 ```
 
 Gemfile.lock is also in the repo.
+
+---
+
+🙏 God bless Docker. May your builds be fast, your volumes mount correctly, and your ports never conflict. Good luck!
+
 
 ## 📦 Full repo
 
