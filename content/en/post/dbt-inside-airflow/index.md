@@ -16,8 +16,6 @@ After experimenting with both, I prefer running dbt *inside* Airflow's Docker co
 
 Here’s why.
 
----
-
 ## ✅ One Container = One Environment
 
 - Airflow DAGs directly execute dbt commands inside the same container.
@@ -33,7 +31,6 @@ With separate containers, you often need to:
 - Sync dbt versions manually
 - Deal with volume mounts or cross-container file access
 
----
 
 ## ✅ Simplified Dependency Management
 
@@ -43,7 +40,6 @@ With separate containers, you often need to:
 
 In CI/CD pipelines, you just build *one* Docker image with both Airflow and dbt installed — much simpler to maintain.
 
----
 
 ## ✅ Clean DAG Code
 
