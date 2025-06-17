@@ -2,7 +2,7 @@
 title: "📚 SQL Struct: 데이터베이스가 책장처럼 생각하는 법을 배울 때"
 date: 2025-06-17
 tags: ["sql", "structs", "data-modeling", "bigquery", "spark", "database-design", "normalization", "denormalization", "arrays", "nested-data"]
-categories: ["Data Engineering", "Database Design"]
+categories: ["Data Engineering"]
 ---
 
 # SQL Struct: 데이터베이스가 책장처럼 생각하는 법을 배울 때
