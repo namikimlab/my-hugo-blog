@@ -7,21 +7,7 @@ categories = ["Data Engineering"]
 
 ---
 
-👉 Check out my, Code, Portfolio, and Resume
-<p align="center">
-  <a href="https://github.com/namikimlab" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-namikimlab-black?logo=github&logoColor=white" />
-  </a>
-  <a href="https://namixkim.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-namixkim.github.io-blue?logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://namixkim.com" target="_blank">
-    <img src="https://img.shields.io/badge/Blog-namixkim.com-orange?logo=ghost&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/namixkim/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Nami%20Kim-0A66C2?logo=linkedin" />
-  </a>
-</p>
+{{< social-badges >}}
 
 ---
 
@@ -163,20 +149,6 @@ But there’s more to come. In the **next post (M3–M4)**, I’ll take this loc
 
 ---
 
-👉 Check out my, Code, Portfolio, and Resume
-<p align="center">
-  <a href="https://github.com/namikimlab" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-namikimlab-black?logo=github&logoColor=white" />
-  </a>
-  <a href="https://namixkim.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-namixkim.github.io-blue?logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://namixkim.com" target="_blank">
-    <img src="https://img.shields.io/badge/Blog-namixkim.com-orange?logo=ghost&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/namixkim/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Nami%20Kim-0A66C2?logo=linkedin" />
-  </a>
-</p>
+{{< social-badges >}}
 
 ---
