@@ -63,6 +63,7 @@ languages:
           weight: 12
         
 params:
+  showLanguageSelector: true
   googleAnalytics: "G-80HHKQXEQQ"
   env: production
   search:
