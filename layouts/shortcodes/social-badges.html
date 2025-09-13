@@ -1,26 +1,29 @@
 <style>
-    .social-badges {
-      text-align: center;
-      margin: 1rem 0;
-    }
-    .social-badges a {
-      margin: 0 8px;
-      display: inline-block;
-      transition: transform 0.15s ease, filter 0.15s ease;
-    }
-    .social-badges a:hover {
-      transform: scale(1.08);
-      filter: brightness(1.15);
-    }
-  </style>
+  .social-badges {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  /* 💡 PaperMod 기본 스타일 덮어쓰기 */
+  .social-badges a {
+    margin: 0 8px;
+    display: inline-block;
+    text-decoration: none;   /* 기본 underline 제거 */
+    border-bottom: none;     /* PaperMod가 넣는 밑줄 제거 */
+    transition: transform 0.15s ease, filter 0.15s ease;
+  }
+  .social-badges a:hover {
+    transform: scale(1.08);
+    filter: brightness(1.15);
+  }
+</style>
   
   <div class="social-badges">
     <p><strong>👉 Code, Portfolio, Blog, and LinkedIn</strong></p>
     <a href="https://github.com/namikimlab" target="_blank">
       <img src="https://img.shields.io/badge/GitHub-namikimlab-black?logo=github&logoColor=white" />
     </a>
-    <a href="https://namixkim.github.io/" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-namixkim.github.io-blue?logo=vercel&logoColor=white" />
+    <a href="https://namikimlab.github.io/" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-namikimlab.github.io-blue?logo=vercel&logoColor=white" />
     </a>
     <a href="https://namixkim.com" target="_blank">
       <img src="https://img.shields.io/badge/Blog-namixkim.com-orange?logo=ghost&logoColor=white" />
