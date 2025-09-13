@@ -75,3 +75,9 @@ outputs:
     - HTML
     - RSS
     - JSON
+
+# allows raw HTML in Markdown (needed for shortcode)
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

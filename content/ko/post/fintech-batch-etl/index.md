@@ -5,21 +5,8 @@ tags = ["data-engineering", "pyspark", "airflow", "dbt", "aws", "etl", "pipeline
 categories = ["Data Engineering"]
 +++
 ---
-👉 코드와 이력서, 포트폴리오는 여기에 있어요
-<p align="center">
-  <a href="https://github.com/namikimlab" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-namikimlab-black?logo=github&logoColor=white" />
-  </a>
-  <a href="https://namixkim.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-namixkim.github.io-blue?logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://namixkim.com" target="_blank">
-    <img src="https://img.shields.io/badge/Blog-namixkim.com-orange?logo=ghost&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/namixkim/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Nami%20Kim-0A66C2?logo=linkedin" />
-  </a>
-</p>
+
+{{< social-badges >}}
 
 ---
 ![alt text](workflow_kr.png)
@@ -156,7 +143,7 @@ SELECT * FROM base
 재현 가능하고, 자동화되어 있고, 분석 친화적이다.
 
 하지만 아직 끝이 아니다.
-**다음 글 (M3–M4)**에서는 DuckDB 대신 **AWS S3 + Redshift**를 사용해 클라우드로 옮기고,
+다음 글 (M3–M4)에서는 DuckDB 대신 **AWS S3 + Redshift**를 사용해 클라우드로 옮기고,
 **거버넌스, 리지니, 대시보드**까지 추가해 더 리얼한 핀테크 데이터 플랫폼으로 발전시킬 예정이다.
 
 🎶 **클라우드로 뿅**
@@ -165,20 +152,7 @@ SELECT * FROM base
 ![alt text](aws_cloud.png)
 
 ---
-👉 코드와 이력서, 포트폴리오는 여기에 있어요
-<p align="center">
-  <a href="https://github.com/namikimlab" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-namikimlab-black?logo=github&logoColor=white" />
-  </a>
-  <a href="https://namixkim.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-namixkim.github.io-blue?logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://namixkim.com" target="_blank">
-    <img src="https://img.shields.io/badge/Blog-namixkim.com-orange?logo=ghost&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/namixkim/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Nami%20Kim-0A66C2?logo=linkedin" />
-  </a>
-</p>
+
+{{< social-badges >}}
 
 ---
