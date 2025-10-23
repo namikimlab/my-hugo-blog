@@ -28,11 +28,9 @@ draft = false
 
 참고: [국립중앙도서관 서지정보 API 문서](https://www.nl.go.kr/NL/contents/N31101010000.do)
 
-초기에 파악한 제약사항은 다음과 같다.
-
-* 일정 수의 `page_size = 100`만 요청 가능
 * 인증키(`cert_key`) 필요
-* 정렬은 `INPUT_DATE` 또는 `PUBLISH_PREDATE`만 가능
+* 요청변수: `PUBLISH_PREDATE` 
+* 일정 수의 `page_size = 100` 요청 가능
 
 즉, 전체 데이터를 한 번에 가져올 수 없었다.
 그래서 **‘월 단위 파티셔닝’** 전략을 세웠다 — 한 달씩 명확한 기간으로 나눠 수집하기.

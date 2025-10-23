@@ -26,11 +26,9 @@ But in practice, I had to solve:
 
 Reference: [NLK Seoji API Docs](https://www.nl.go.kr/NL/contents/N31101010000.do)
 
-Key constraints I found early:
-
-* Must iterate in small chunks, `page_size = 100`.
 * Requires an API key (`cert_key`).
-* Sort options limited to `INPUT_DATE` or `PUBLISH_PREDATE`.
+* Request parameter: `PUBLISH_PREDATE`.
+* Iterate in small chunks, `page_size = 100`.
 
 That meant I couldn’t pull everything at once.
 I decided to **partition by month**, fetching one month at a time with clear start and end dates.
